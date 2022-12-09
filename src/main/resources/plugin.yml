@@ -4,3 +4,7 @@ main: eu.melonensaft.minecraftjoe09.melonenshop.MelonenShop
 api-version: 1.19
 prefix: MelonenShop
 authors: [ MinecraftJoe09 ]
+commands:
+  shop:
+    permission: melonensaft.command.shop
+    usage: /<command> <0> <1> <2> <3> <4>
