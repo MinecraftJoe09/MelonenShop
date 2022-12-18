@@ -7,6 +7,8 @@ import java.util.Objects;
 
 public final class MelonenShop extends JavaPlugin {
 
+    public static final MelonenShop instance = getPlugin(MelonenShop.class);
+
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -17,9 +19,5 @@ public final class MelonenShop extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-    }
-
-    public static MelonenShop getInstance() {
-        return getPlugin(MelonenShop.class);
     }
 }
